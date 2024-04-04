@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding:0px 0;
+    
+}
+
+.left-content {
+    flex:1;
+    padding:50px;
+    color: #000;
+    text-align:right;
+    
+}
+
+.right-content {
+   max-width:150px;
+    padding-left:0px;
+    
+}
+
+blockquote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.biography-section {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: dashed;
+    text-overflow: clip;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
